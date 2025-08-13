@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Container chính */
+.header-container {
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Để không vỡ layout trên màn hình nhỏ */
+    padding: 10px 20px;
+}
+
+.header-tile1,
+.header-tile2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-tile1 p,
+.header-tile2 p {
+    font-size: 1.5rem;
+    max-width: 350px;
+}
+
+.header-image img {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Menu */
+ul {
+    background-color: #f58220;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+ul li a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Best Seller */
+.content-header {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.content img {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.image-down {
+    margin-top: 200px;
+}
+
+.paragraph-content {
+    background-color: #f58220;
+    color: white;
+    display: flex;
+    font-size: 1.25rem;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    margin: 25px auto;
+    padding-top: 25px;
+    max-width: 351px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 751px   ;
+}
+.paragraph-content p {
+    width: 274px;
+}
+.banner {
+    width: 100%;
+    display: flex;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.sale-off, .list{
+    text-align: center;
+    margin:50px 0;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.red-motor, .voltguard{
+    display: flex;
+    justify-content: center;
+}
+.uppercase-YV{
+    color: #f58220;
+    font-size: 21px;
+}
+.yadea-store img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 120%;
+    padding-left: 25px;
+}
+.info-table {
+    background-color: lightgray;
+    width: 554px;
+    height: 525px;
+    padding: 0; /* Bỏ padding để header/ footer dính sát */
+    box-sizing: border-box; /* Đảm bảo width bao gồm padding */
+}
+.info-table .label {
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    color: white;
+    height: 72px;
+    width: 100%; /* Chiếm đủ khung cha */
+}
+.label {
+    display: flex;
+    background-color: aqua;
+    color: white;
+    width: 550px;
+    height: 72px;   
+    align-items: center;
+}
+.label h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.info{
+    margin: 15px 10px;
+    display: block;
+}
+.buy-button{
+    background-color: #f58220;  
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 25px 200px;
+}
+.buy-button p{
+    padding: 5px;
+}
+.info-table .label-end {
+    background-color: aqua;
+    color: white;
+    height: 68px;
+    width: 100%;
+    position: relative;
+    bottom: -106px;
+}
+.info-table .label-end {
+   text-align: center;
+   align-content: center;
+}
+.label-end h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+input, select{
+    display: block;
+    margin: 0px auto;
+    margin-top: -24px;
+}
+input[name="ngaykt"]{
+    width: 60%;
+    margin-left: 169px;
+}
+select[name=color], select[name="tour"]{
+    margin-left: 169px;
+}
+.footer{
+    background-color: gray; 
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    bottom: -20px;
+    padding: 20px 0px;
+}
